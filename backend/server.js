@@ -1,8 +1,8 @@
 // // backend/server.js
-// const express = require("express"); // 🟡 Express framework load
-// const path = require("path");       // 🟡 File path manage karne ke liye
-// const app = express();              // 🟡 app ek express application hai
-// const PORT = 3000;                  // 🟡 port number set
+// const express = require("express"); 
+// const path = require("path");     
+// const app = express();            
+// const PORT = 3000;                 
 
 // // ✅ 1. Middleware to serve static files from 'public' folder
 // app.use(express.static(path.join(__dirname, "../public")));
@@ -31,11 +31,11 @@
 
 
 // ✅ backend/server.js
-const express = require("express");              // Express framework load kar raha hai
-const path = require("path");                    // File aur folder path manage karne ke liye
-const mongoose = require("mongoose");            // MongoDB ke saath kaam karne ke liye Mongoose
-const app = express();                           // Express application ban raha hai
-const PORT = 3000;                               // Port set kar diya (http://localhost:3000)
+const express = require("express");              
+const path = require("path");                    
+const mongoose = require("mongoose");          
+const app = express();                          
+const PORT = 3000;                              
 
 // ✅ 1. MongoDB Connection (Mongoose se)
 mongoose.connect("mongodb://0.0.0.0/feedbackDB", {
